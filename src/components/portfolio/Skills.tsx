@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import {
   SiJavascript, SiTypescript, SiPython, SiCplusplus,
-  SiReact, SiNextdotjs, SiTailwindcss, SiHtml5, SiCss3, SiRedux,
+  SiReact, SiNextdotjs, SiTailwindcss, SiHtml5, SiCss, SiRedux,
   SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiFirebase,
   SiGit, SiGithub, SiDocker, SiPostman, SiVercel,
 } from "react-icons/si";
@@ -24,7 +24,7 @@ const groups = [
       { icon: SiTailwindcss, name: "Tailwind", color: "#38BDF8" },
       { icon: SiRedux, name: "Redux", color: "#764ABC" },
       { icon: SiHtml5, name: "HTML5", color: "#E34F26" },
-      { icon: SiCss3, name: "CSS3", color: "#1572B6" },
+      { icon: SiCss, name: "CSS3", color: "#1572B6" },
     ],
   },
   {
