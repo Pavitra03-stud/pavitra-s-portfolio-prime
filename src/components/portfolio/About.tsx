@@ -1,12 +1,16 @@
 import { motion } from "framer-motion";
-import { Code2, Rocket, Sparkles, Users } from "lucide-react";
+import { Brain, Code2, Rocket, Sparkles, TrendingUp, Users, Layers, Target,  } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
 const strengths = [
   { icon: Code2, title: "Clean Architecture", text: "Readable, scalable codebases that ship." },
   { icon: Rocket, title: "Performance First", text: "Optimized loads, smooth 60fps UI." },
   { icon: Sparkles, title: "Design Sensibility", text: "Pixel-precise, accessible interfaces." },
-  { icon: Users, title: "Team Player", text: "Clear comms, fast iteration." },
+  { icon: Users, title: "Team Collaboration", text: "Clear communication and effective teamwork." },
+  { icon: Brain, title: "Problem Solving", text: "Breaking complex problems into simple solutions." },
+  { icon: Layers, title: "Full Stack Expertise", text: "Building seamless frontend and backend systems." },
+  { icon: Target, title: "User-Centered Design", text: "Focused on usability and user satisfaction." },
+  { icon: TrendingUp, title: "Continuous Learning", text: "Always exploring and improving with new tech." },
 ];
 
 export function About() {
@@ -32,11 +36,11 @@ export function About() {
               <div className="h-20 w-20 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-3xl font-display font-bold text-primary-foreground shadow-[var(--shadow-glow)]">
                 P
               </div>
-              <h3 className="mt-6 font-display text-2xl font-semibold">Hello, I'm Pavitra 👋</h3>
+              <h3 className="mt-6 font-display text-2xl font-semibold">Hello, I'm Pavitra </h3>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                I'm a Full Stack Developer with a strong eye for frontend craft.
-                I enjoy building tools that feel intuitive — from CMS platforms
-                to dashboards — using React, Node, and modern web tech.
+                I’m a passionate Full Stack Developer and UI/UX Designer who builds complete digital experiences from concept to deployment. I combine strong technical skills with a keen eye for design to create applications that are both functional and visually engaging.
+                I specialize in developing scalable, high-performance web applications using modern technologies, focusing on clean, maintainable code and seamless user experiences. As a designer, I pay close attention to user behavior and interaction patterns to craft intuitive and user-friendly interfaces.
+                I’m constantly learning and evolving to stay updated with the latest trends, aiming to build impactful products that solve real-world problems and deliver a smooth, delightful user journey.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {["React", "TypeScript", "Node.js", "Tailwind", "MongoDB"].map((t) => (

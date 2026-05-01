@@ -1,20 +1,23 @@
 import { motion } from "framer-motion";
 import {
-  SiJavascript, SiTypescript, SiPython, SiCplusplus,
+  SiJavascript, SiTypescript, SiDart,
   SiReact, SiNextdotjs, SiTailwindcss, SiHtml5, SiCss, SiRedux,
   SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiFirebase,
   SiGit, SiGithub, SiDocker, SiPostman, SiVercel,
+  SiC,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 const groups = [
   {
     title: "Languages",
     items: [
-      { icon: SiJavascript, name: "JavaScript", color: "#F7DF1E" },
-      { icon: SiTypescript, name: "TypeScript", color: "#3178C6" },
-      { icon: SiPython, name: "Python", color: "#3776AB" },
-      { icon: SiCplusplus, name: "C++", color: "#00599C" },
-    ],
+  { icon: SiJavascript, name: "JavaScript", color: "#F7DF1E" },
+  { icon: SiTypescript, name: "TypeScript", color: "#3178C6" },
+  { icon: FaJava, name: "Java", color: "#007396" },
+  { icon: SiC, name: "C", color: "#A8B9CC" },
+  { icon: SiDart, name: "Dart (Learning)", color: "#0175C2" }
+],
   },
   {
     title: "Frontend",
@@ -22,7 +25,6 @@ const groups = [
       { icon: SiReact, name: "React", color: "#61DAFB" },
       { icon: SiNextdotjs, name: "Next.js", color: "#ffffff" },
       { icon: SiTailwindcss, name: "Tailwind", color: "#38BDF8" },
-      { icon: SiRedux, name: "Redux", color: "#764ABC" },
       { icon: SiHtml5, name: "HTML5", color: "#E34F26" },
       { icon: SiCss, name: "CSS3", color: "#1572B6" },
     ],
@@ -76,12 +78,12 @@ export function Skills() {
                 <div className="flex items-center justify-between mb-6">
                   <h3 className="font-display text-xl font-semibold">{g.title}</h3>
                   <span className="text-xs text-muted-foreground">
-                    {g.items.length} skills
+                    {g.items?.length || 0} skills
                   </span>
                 </div>
 
                 <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
-                  {g.items.map((s, i) => (
+                  {g.items?.map((s, i) => (
                     <motion.div
                       key={s.name}
                       initial={{ opacity: 0, scale: 0.8 }}

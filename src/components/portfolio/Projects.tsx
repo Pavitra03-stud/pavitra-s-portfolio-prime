@@ -7,36 +7,36 @@ const projects = [
     title: "Website Builder — Client-Side CMS",
     description:
       "A no-code CMS that lets users compose pages with dynamic UI rendering, nested menus, drag-and-drop blocks, and real-time preview.",
-    tech: ["React", "TypeScript", "Tailwind", "Zustand", "Vite"],
-    github: "https://github.com/",
+    tech: ["React","CSS","CMS-tool","JavaScript","Vite"],
+    github: "https://github.com/Pavitra03-stud/cms-portfolio.git",
     demo: "#",
     featured: true,
     highlights: ["Dynamic UI rendering", "Nested menu system", "Live preview"],
   },
-  {
-    title: "DevBoard — Developer Analytics",
-    description:
-      "Personal dashboard aggregating GitHub, LeetCode and learning stats with beautiful charts and weekly insights.",
-    tech: ["Next.js", "Node.js", "MongoDB", "Recharts"],
-    github: "https://github.com/",
-    demo: "#",
-  },
-  {
-    title: "Aurora UI Kit",
-    description:
-      "A premium glassmorphic component library built with React + Tailwind, fully accessible and themeable.",
-    tech: ["React", "Tailwind", "Radix", "Storybook"],
-    github: "https://github.com/",
-    demo: "#",
-  },
-  {
-    title: "Snapnotes — AI Study Companion",
-    description:
-      "Turn lectures and PDFs into structured notes, flashcards and quizzes powered by an LLM pipeline.",
-    tech: ["React", "Express", "OpenAI", "MongoDB"],
-    github: "https://github.com/",
-    demo: "#",
-  },
+{
+  title: "Frontend Clone — Modern UI Replication",
+  description:
+    "A pixel-perfect clone of a modern website built to practice responsive design, layout structuring, and UI accuracy using React and Tailwind CSS.",
+  tech: ["React", "Tailwind CSS"],
+  github: "https://github.com/Pavitra03-stud/accredian-clone", // add your real link
+  demo: "#",
+},
+{
+  title: "Catering Website — Business Platform",
+  description:
+    "A responsive catering service website showcasing menus, services, and contact features. Designed with a clean UI to enhance user experience and business visibility.",
+  tech: ["HTML", "CSS", "Node.js", "MongoDB", "Express"],
+  github: "https://github.com/SadanasreeCM/RoobaCatering",
+  demo: "#",
+},
+{
+  title: "Dyslexia Aid — Learning Support Tool",
+  description:
+    "An assistive web application designed to help users with dyslexia through improved readability, text customization, and user-friendly UI features.",
+  tech: ["React", "JavaScript", "CSS"],
+  github: "https://github.com/Pavitra03-stud/CurioKids",
+  demo: "#",
+},
 ];
 
 export function Projects() {
@@ -86,15 +86,7 @@ export function Projects() {
                     >
                       <Github className="h-4 w-4" />
                     </a>
-                    <a
-                      href={p.demo}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="Live demo"
-                      className="h-10 w-10 rounded-full glass flex items-center justify-center hover:glow transition"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                    </a>
+                    
                   </div>
                 </div>
 

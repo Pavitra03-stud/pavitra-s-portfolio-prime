@@ -42,7 +42,7 @@ export function Navbar() {
               P
             </span>
             <span className="font-display font-semibold tracking-tight hidden sm:inline">
-              pavitra<span className="gradient-text">.dev</span>
+              PAVITRA<span className="gradient-text"> GV</span>
             </span>
           </a>
 

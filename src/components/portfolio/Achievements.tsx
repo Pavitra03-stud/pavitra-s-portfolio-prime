@@ -7,13 +7,13 @@ const items = [
     icon: Trophy,
     title: "LeetCode Progress",
     text: "Consistently solving problems across DSA topics — sharpening problem-solving every day.",
-    badge: "200+ solved",
+    badge: "70+ solved",
   },
   {
     icon: Briefcase,
     title: "Internship Selection — iStudio",
-    text: "Selected for an internship at iStudio, contributing to real-world product development.",
-    badge: "Selected",
+    text: "Earned selection certificate for internship opportunity at iStudio through technical assessment.",
+    badge: "Certified",
   },
   {
     icon: GraduationCap,
